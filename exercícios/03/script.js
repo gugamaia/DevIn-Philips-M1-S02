@@ -9,8 +9,11 @@
 // dica: de uma olhadinha no for.
 
 // Realize o commit do exercício resolvido.
-let numeroInformado = prompt('Informe um número válido');
+let numeroInformado = parseInt(prompt('Você deseja saber a tabuada de qual valor?'));
+let tabuada = 0;
 
-function tabuadaCalcular() {
-    for()
-}
+    for(i = 1; i <= 10; i++){
+    tabuada = numeroInformado * i;
+    console.log(`${numeroInformado} * ${i} = ${tabuada}`)
+        }
+    

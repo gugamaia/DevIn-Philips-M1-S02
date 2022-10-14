@@ -41,6 +41,8 @@ function meses() {
             break;
         default:
             alert('Entrada invalida!');
+            return meses();
+            
     }
 }
 

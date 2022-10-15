@@ -9,5 +9,3 @@ if(numero != 0){
     } else{
         alert('Informe um número válido');
     }
-
-

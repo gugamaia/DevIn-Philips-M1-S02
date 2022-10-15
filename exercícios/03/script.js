@@ -9,11 +9,21 @@
 // dica: de uma olhadinha no for.
 
 // Realize o commit do exercício resolvido.
-let numeroInformado = parseInt(prompt('Você deseja saber a tabuada de qual valor?'));
-let tabuada = 0;
+var numeroInformado = parseInt(prompt('Você deseja saber a tabuada de qual valor?'));
+var tabuada = '';
 
-    for(i = 1; i <= 10; i++){
-    tabuada = numeroInformado * i;
-    console.log(`${numeroInformado} * ${i} = ${tabuada}`)
-        }
+if (isNaN(numeroInformado)) {
+    tabuada = 'Número informado invalido';
+} else {
+    for(let i = 1; i <= 10; i++) {
+        tabuada += `${numeroInformado} x ${i} = ${numeroInformado * i} ${i !== 10 ? '\n' : ''}`;
+    }
+}
+
+alert(tabuada);
+
+// for(i = 1; i <= 10; i++){
+//     tabuada = numeroInformado * i;
+//     console.log(`${numeroInformado} * ${i} = ${tabuada}`)
+//         }
     

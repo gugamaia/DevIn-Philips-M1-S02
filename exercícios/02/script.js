@@ -16,13 +16,13 @@
   
       if (idade >= 0 && idade < 16) {
         validaIdade = false;
-        alert("você é jovem");
+        alert("Você é jovem.");
       } else if (idade > 15 && idade < 65) {
         validaIdade = false;
-        alert("Você é Adulto");
+        alert("Você é Adulto.");
       } else if (idade > 64 && idade < 120) {
         validaIdade = false;
-        alert("Você é idoso");
+        alert("Você é idoso.");
       } else {
         validaIdade = true;
         alert("Entrada invalida.");
